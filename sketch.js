@@ -18,7 +18,7 @@ function drawBoard(){
 
         tile.classList.add("tile")
 
-        if(num===0){
+        if(num === 0){
             tile.classList.add("empty")
         }else{
             tile.innerText = num
