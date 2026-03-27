@@ -55,7 +55,7 @@ function moveTile(index){
 
 function shuffle(){
 
-    for(let i=0;i<1000;i++){
+    for(let i=0; i<1000; i++){
 
         const rand = Math.floor(Math.random()*16)
 
@@ -80,3 +80,5 @@ function checkWin(){
 }
 
 drawBoard()
+
+console.log("script loaded")

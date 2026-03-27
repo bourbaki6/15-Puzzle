@@ -1,11 +1,23 @@
+
+@import url('https://fonts.googleapis.com');
+
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
     text-align: center;
 }
 
+h1{
+    font-size: 36px;
+}
+
+button{
+    font-size: 18px;
+}
+
 #board{
-    width: 320px;
-    height: 320px;
+    width: 420px;
+    height: 420px;
     margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -16,11 +28,12 @@ body{
 .tile{
     background: #3498db;
     color: yellowgreen;
-    font-size: 28px;
+    font-size: 36px;
+    font-family: 'Protest Strike', sans-serif;
     display:flex;
     justify-content:center;
     align-items:center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .empty{
